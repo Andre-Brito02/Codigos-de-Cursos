@@ -1,0 +1,30 @@
+# Arquivos ocultos no Linux
+.bash_history
+.bash_profile
+.bashrc
+.swp
+.RData
+.Rhistory
+
+# Configurações do Anaconda
+anaconda-navigator.ini
+defaults-2.0.0.ini
+navigator.log
+
+# Arquivos temporários e cache do Arduino
+.arduino15/
+**/cache/
+**/logs/
+
+# Arquivos de sistema do Flatpak
+.cache/flatpak/
+
+# Ignorar todos os arquivos ocultos no home (exceto o .gitignore)
+/home/andre/.*
+
+.arduino15/
+.anaconda/
+.cache/
+.conda/
+.local/
+.snap/

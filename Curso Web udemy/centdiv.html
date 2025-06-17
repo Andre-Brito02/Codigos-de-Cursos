@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            background-color: powderblue;
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        section{
+            width: 300px;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            border-radius: 300px;
+            border: solid black;
+        }
+
+        button{
+            width: 150px;
+            height: 150px;
+            border: solid black;
+        }
+
+        .green{
+            background-color: green;
+            border-radius: 150px 0 0 0;
+        }
+        
+        .red{
+            background-color: red;
+            border-radius: 0 150px 0 0;
+        }
+        
+        .yellow{
+            background-color: yellow;
+            border-radius: 0 0 0 150px;
+        }
+        
+        .blue{
+            background-color: blue;
+            border-radius: 0 0 150px 0;
+        }
+
+        button:hover{
+            cursor: pointer;
+        }
+
+        button:active{
+            background-color: transparent;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <button id="green" class="green" onclick="mostrarMensagemVerde()"></button>
+        <button id="red" class="red" onclick="mostrarMensagemVermelho()"></button>
+        <button id="yellow" class="yellow" onclick="mostrarMensagemAmarelo()"></button>
+        <button id="Blue" class="blue" onclick="mostrarMensagemAzul()"></button>
+    </section>
+
+    <script>
+        document.getElementById("green");
+        document.getElementById("red");
+        document.getElementById("yellow");
+        document.getElementById("blue");
+
+        function mostrarMensagemVerde(){
+            alert("Você clicou no botão verde");
+        }
+        
+        function mostrarMensagemVermelho(){
+            alert("Você clicou no botão vermelho");
+        }
+        
+        function mostrarMensagemAmarelo(){
+            alert("Você clicou no botão amarelo");
+        }
+        
+        function mostrarMensagemAzul(){
+            alert("Você clicou no botão azul");
+        }
+    </script>
+</body>
+</html>

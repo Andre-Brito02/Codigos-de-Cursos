@@ -1,0 +1,120 @@
+<h1> </h1> Título
+<h2> </h2> Subtítulo
+<h3> </h3> Sub Subtítulo
+<h4> </h4> Subtítulo do h3
+<h5> </h5> Subtítulo do h4
+<h6> </h6> Subtítulo do h5
+
+<p> </p> Parágrafo
+
+<i> </i> itálico
+<b> </b> negrito
+<em> </em> itálico semântico
+<strong> </strong> negrito semântico
+<mark> </mark> destaque especial
+
+<ul> </ul> listas não ordenadas
+<ol> </ol> listas ordenadas
+<li> </li> item da lista
+
+<a> </a> link
+
+QUEBRA DE LINHA
+<br>
+<hr>
+
+ATRIBUTOS
+<tag atributo="valor"> texto </tag>
+href -> url de um site
+target -> define onde será aberto o conteúdo
+
+<!-- --> Comentários
+
+lista horizontal
+display: inline ou display: inline-block // CSS
+
+Imagem com texto ao lado
+float: left ou right // CSS
+
+//PROVAVELMENTE DE PARA USAR COM OUTRAS COISAS ALÉM DE TEXTO 
+width: fit-content // CSS ocupa um espaço baseado no tamanho do texto 
+width: min-content // CSS espaço ocupado é da maior palavra(Arruma todo o texto para que a margem não passe da maior palavra)
+width: max-content // CSS espaço ocupado é todo o espaço disponível 
+
+overflow: hidden // CSS não permite que um texto passe do tamanho do bloco que está sendo usado
+overflow: scroll // CSS esconde o conteúdo excedente e adiciona uma barra de scroll
+overflow: auto   // CSS esconde o conteúdo excedente e adiciona uma barra de scroll onde é necessário(Somente vertical ou horizontal)
+
+align-items // CSS
+    flex-start: Items align to the top of the container.
+    flex-end: Items align to the bottom of the container.
+    center: Items align at the vertical center of the container.
+    baseline: Items display at the baseline of the container.
+    stretch: Items are stretched to fit the container.
+
+justify-content // CSS
+    flex-start: Items align to the left side of the container.
+    flex-end: Items align to the right side of the container.
+    center: Items align at the center of the container.
+    space-between: Items display with equal spacing between them.
+    space-around: Items display with equal spacing around them.
+
+flex-direction // CSS
+    row: Items are placed the same as the text direction.
+    row-reverse: Items are placed opposite to the text direction.
+    column: Items are placed top to bottom.
+    column-reverse: Items are placed bottom to top.
+
+align-self // CSS Mesmos do align-items mas para itens individuais
+
+flex-wrap // CSS
+    nowrap: Every item is fit to a single line.
+    wrap: Items wrap around to additional lines.
+    wrap-reverse: Items wrap around to additional lines in reverse.
+
+The two properties flex-direction and flex-wrap are used so often together that the shorthand property flex-flow was created to combine them. T
+his shorthand property accepts the value of the two properties separated by a space.
+For example, you can use flex-flow: row wrap to set rows and wrap them.
+
+align-content // CSS
+    flex-start: Lines are packed at the top of the container.
+    flex-end: Lines are packed at the bottom of the container.
+    center: Lines are packed at the vertical center of the container.
+    space-between: Lines display with equal spacing between them.
+    space-around: Lines display with equal spacing around them.
+    stretch: Lines are stretched to fit the container.
+
+ESTRUTURA BASE
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <title> Título da página </title>
+        <meta charset="utf-8">
+        <meta tags> Tags que passam informações adicionais
+        <link para arquivos externos> JS/CSS
+    </head>
+
+    <body>
+        CONTEÚDO DA PÁGINA
+        <h1></h1>
+        <p></p>
+        <ul>
+            <li></li>
+        </ul>
+    </body>
+</html> 
+
+EXEMPLO
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="description" content="descrição legal da minha página">
+    <meta name="author" content="André">
+</head>
+<body>
+    
+</body>
+</html>

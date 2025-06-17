@@ -1,0 +1,14 @@
+# Ignorar a pasta output
+/output/
+
+# Ignorar arquivos comuns de compilação
+*.class    # Java
+*.o        # C/C++
+*.exe      # executáveis Windows
+*.out      # executáveis Linux
+*.pyc      # Python bytecode
+*.log      # logs
+
+# Ignorar qualquer arquivo temporário ou backup
+*~
+*.swp

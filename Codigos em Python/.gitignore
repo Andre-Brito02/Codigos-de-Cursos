@@ -1,0 +1,16 @@
+# Ignorar o ambiente virtual (substitua "venv" pelo nome do seu ambiente, se for diferente)
+venv/
+.env/
+
+# Ignorar arquivos do VS Code
+.vscode/
+
+# Arquivos Python compilados
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Arquivos de logs e configurações locais
+*.log
+.DS_Store

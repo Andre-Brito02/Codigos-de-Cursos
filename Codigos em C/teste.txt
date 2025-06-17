@@ -1,0 +1,17 @@
+Program Calculo;
+var
+  soma: double;
+  i: integer;
+begin
+  soma := 0.0; // Inicializa soma
+  i := 1;
+  soma := soma+++i;
+  { Laço para somar números }
+  while i <= 10 do
+  begin
+    soma := soma + i;
+    i := i + 1;
+    (* Incrementa i *)
+  end;
+  write(soma);
+end.

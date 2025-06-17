@@ -1,0 +1,31 @@
+.nome{
+    color: #000;
+    text-align: center;
+    border: 5px powderblue groove;
+    border-radius: 10px;
+    background-color: powderblue;
+}
+
+.descricao{
+    text-align: center;
+}
+
+.temas{
+    background-color: powderblue;
+    border: 5px powderblue groove;
+    border-radius: 10px;
+    color: blue;
+    font-family: sans-serif;
+}
+
+.experiencias{
+    font-weight: bolder;
+}
+
+b{
+    color: blue;
+}
+
+body{
+    background-color: lavenderblush;
+}
